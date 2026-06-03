@@ -5,144 +5,182 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./style.css" rel="stylesheet ">
 </head>
-<body>
-    <header>
+<body class="h-screen">
+
+    <header>  
+        
+        <div class="bg-[url(./assets/background1.jpg)] bg-cover  rounded-b-[120px] pt-6 flex flex-col gap-y-20 pb-32">
+           
+            <!-- Logo and links-->
+            <section id="navbar" class="flex justify-around  items-center gap-x-6 py-5 font-sans sticky top-0 z-10 bg-[#0071f8] " >
+                <div>
+                  <img class="w-36"  src="./assets/LUGX_logo.png" alt="Lugx_logo_image">
+                </div>  
+                <ul class="flex flex-row justify-between gap-x-8 text-[#e1eefe] font-normal pl-8 text-base">
+                  <li class=" bg-[#1a7ff9] px-4 py-2 rounded-3xl"><a href="#">Home</a></li>
+                  <li class="px-4 py-2 hover:bg-[#1a7ff9] hover:rounded-3xl"><a href="#">Our Shop</a></li>
+                  <li class="px-4 py-2 hover:bg-[#1a7ff9] hover:rounded-3xl"><a href="#">Product Details</a></li>
+                  <li class="px-4 py-2 hover:bg-[#1a7ff9] hover:rounded-3xl"><a href="#">Contact Us</a></li>
+                  <li class="px-4 py-2 bg-[#ee626b] rounded-3xl font-medium"><a href="#">SIGN IN</a></li>
+                </ul>
+            </section>
 
 
-        <!-- Logo and links-->
-        <section>
-            <div>
-              <img src="./assets/logo.png" alt="Lugx_logo_image">
-            </div>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Our Shop</a></li>
-              <li><a href="#">Product Details</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">SIGN IN</a></li>
-            </ul>
-        </section>
+            <!-- Welcome to Lugx and Image section part -->
+            <section class="flex justify-evenly  pb-20 text-white">
+    
+                <div>
+                  <h6 class="uppercase tracking-wider text-[20px] font-medium pb-4">WELCOME TO LUGX</h6>
+                  <h2 class="text-5xl font-bold">BEST GAMING SITE <br>EVER!</h2>
+                  <p class="pt-16 mb-[70px] text-sm leading-[28px] tracking-wide">LUGX Gaming is free Bootstrap 5 HTML CSS Website template for your gaming <br>
+                  websites. You can download and use this layout for commercial purposes. <br>
+                  Please tell your friends about TemplateMo.</p>
+                  <form action="#" class="w-96 relative">
+                    <input class="text-[#333] w-full absolute  bg-white px-4 py-3 rounded-3xl text-sm" type="text" id="text" name="text" placeholder="Type Something">
+                    <button class="text-white w-32  absolute right-0 top-0  bg-[#ee626b] px-4 py-3 rounded-3xl text-sm font-medium " type="submit">SEARCH NOW</button>
+                  </form>
+                </div>
+    
+                <div>
+                  <figure class="relative">
+                    <img class="rounded-3xl  h-full" src="./assets/image1.jpg" alt="banner_image">
+                    <span class="uppercase absolute top-5 right-7 bg-[#008af8] px-4 py-2 rounded-3xl font-bold text-xl">$22</span>
+                    <span class="uppercase absolute rounded-[50%] -left-6 -bottom-4 bg-[#ee626b] py-6 px-3 font-bold text-2xl mx-auto">-40%</span>
+                  </figure>
+                </div>
 
+            </section>
 
-        <!-- Welcome to Lugx and Image section part -->
-        <section>
-
-            <div>
-              <h6>WELCOME TO LUGX</h6>
-              <h2>BEST GAMING SITE <br>EVER!</h2>
-              <p>LUGX Gaming is free Bootstrap 5 HTML CSS Website template for your gaming <br>
-              websites. You can download and use this layout for commercial purposes. <br>
-              Please tell your friends about TemplateMo.</p>
-              <form action="#">
-                <input type="text" id="text" name="text" placeholder="Type Something">
-                <button type="submit">SEARCH NOW</button>
-              </form>
-            </div>
-
-            <div>
-              <figure>
-                <h4>$22</h4>
-                <img src="./assets/banner-image.jpg" alt="banner_image">
-                <h3>-40%</h3>
-              </figure>
-            </div>
-        </section>
+        </div>  
     </header>
 
-
     <main>
-
-        <section>
+        <section class="relative">
     
           <!--Part 1 The FREE Storage, User Mode, Reply Ready and Easy Layout Page -->
-          <div>
-              <div>
-                <img src="./assets/featured-01.png" alt="Free Storage Logo">
-                <h3>FREE STORAGE</h3>
+          <div class="flex justify-center mx-auto gap-x-6 -mt-20 relative z-20 ">
+
+              <div href="#">
+                <div class="px-14 py-9  rounded-3xl text-center shadow-lg bg-white">
+                  <div class="bg-[#0071f8] inline-block p-5 rounded-full hover:bg-[#ee626b] transition duration-[.3s]">
+                    <img  src="./assets/freeStorage_logo.png" alt="Free Storage Logo">
+                  </div>  
+                  <h3 class="uppercase font-bold text-lg mt-6">FREE STORAGE</h3>
+                </div>
               </div>
-              <div>
-                <img src="./assets/featured-02.png" alt="Free Storage Logo">
-                <h3>USER MODE</h3>
+
+              <div href="#">
+                <div class="px-14 py-9  rounded-3xl text-center shadow-lg bg-white">
+                  <div class="bg-[#0071f8] inline-block p-5 rounded-full hover:bg-[#ee626b] transition duration-[.3s]">
+                    <img  src="./assets/usermore_logo.png" alt="user_more_logo">
+                  </div>
+                  <h3 class="uppercase font-bold text-lg mt-6">USER MODE</h3>
+                </div>
               </div>
+
               <div>
-                <img src="./assets/featured-03.png" alt="Free Storage Logo">
-                <h3>REPLY READY</h3>
+                <div class="px-14 py-9  rounded-3xl text-center shadow-lg bg-white">
+                  <div class="bg-[#0071f8] inline-block p-5 rounded-full hover:bg-[#ee626b] transition duration-[.3s]">
+                    <img class="" src="./assets/reply_ready_logo.png" alt="reply_ready_logo">
+                  </div>
+                  <h3 class="uppercase  font-bold text-lg mt-6">REPLY READY</h3>
+                </div>
               </div>
-              <div>
-                <img src="./assets/featured-04.png" alt="Free Storage Logo">
-                <h3>EASY LAYOUT</h3>
+
+              <div href="#">
+                <div class="px-14 py-9  rounded-3xl text-center shadow-xl bg-white">
+                  <div class="bg-[#0071f8] inline-block p-5 rounded-full hover:bg-[#ee626b] transition duration-[.3s]">
+                    <img src="./assets/easy_layout_logo.png" alt="easy_layout_logo">
+                  </div>
+                  <h3 class="uppercase font-bold text-lg mt-6">EASY LAYOUT</h3>
+                </div>
               </div>
+
           </div>
 
           <!-- Part 2 About Trending Games -->
-          <div>
-            <h4>TRENDING</h4>
-            <div>
-              <h2>Trending Games</h2>
-              <button>VIEW ALL</button>
+          <div class="mt-28">
+
+            <div class="mx-32">
+              <h6 class="text-[#ee626b] text-base font-bold uppercase">Trending</h6>
+              <div class="flex justify-between items-center">
+                <h2 class="text-4xl font-bold capitalize mt-5 ">Trending Games</h2>
+                <a href="#" class="inline-block bg-[#ee626b] uppercase text-white text-base font-semibold px-5 py-3 
+                rounded-3xl mt-5 hover:cursor-pointer hover:bg-[#0071f8] transition duration-[.3s]">VIEW ALL</a>
+              </div>
             </div>
+
             
-            <div>
+            
+            <div class="pt-20 flex justify-center gap-x-6">
                 <!-- First Part -->
-                <div>
-                  <a href="#">
-                    <img src="./assets/trending-01.jpg" alt="Assassin Creed Image">
+                <div class="bg-[#eeeeee] rounded-3xl">
+                  <a href="#" class="relative">
+                    <img class="w-3xs rounded-3xl" src="./assets/trending_games1.jpg" alt="Assassin Creed Image">
+                    <span class="text-right absolute top-5 right-7 z-10 rounded-xl bg-[#008af8] text-lg uppercase font-semibold text-white pt-2 pr-4 pb-1.5 pl-4 flex flex-col">
+                      <em class="font-normal text-sm line-through block">$28</em>  
+                      $20
+                    </span>
                   </a>
-                  <span>
-                    <em>$28</em>  
-                    $20
-                  </span>
-                  <div>
-                    <span>Action</span>
-                    <h3>Assasin Creed</h3>
-                    <a href="#">
-                      <i class="fa fa-shopping-bag"></i>
+                  <div class="flex flex-col pb-4 pl-7 relative pt-6">
+                    <span class="text-sm text-[#7a7a7a] mb-1.5">Action</span>
+                    <h4 class="text-lg font-semibold hover:text-[#0071f8] transition duration-[0.3s]">Assasin Creed</h3>
+                    <a class="absolute inline-block text-center w-10 h-10 bg-[#ee626b] text-white rounded-[50%] left-50 bottom-5 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">
+                      <i class="fa fa-shopping-bag "></i>
                     </a>  
                   </div>
                 </div>
+
                 <!-- Second Part -->
-                <div>
-                  <a href="#">
-                    <img src="./assets/trending-01.jpg" alt="Assassin Creed Image">
+                <div class="bg-[#eeeeee] rounded-3xl">
+                  <a href="#" class="relative">
+                    <img class="w-3xs rounded-3xl" src="./assets/trending_games1.jpg" alt="Assassin Creed Image">
+                    <span class="text-right absolute top-5 right-7 z-10 rounded-xl bg-[#008af8] text-lg uppercase font-semibold text-white pt-2 pr-4 pb-1.5 pl-4 flex flex-col">
+                      <em class="font-semibold text-sm not-italic block">$44</em>  
+                    </span>
                   </a>
-                  <span>$44</span>
-                  <div>
-                    <span>Action</span>
-                    <h3>Assasin Creed</h3>
-                    <a href="#">
-                      <i class="fa fa-shopping-bag"></i>
+                  <div class="flex flex-col pb-4 pl-7 relative pt-6">
+                    <span class="text-sm text-[#7a7a7a] mb-1.5">Action</span>
+                    <h4 class="text-lg font-semibold hover:text-[#0071f8] transition duration-[0.3s]">Assasin Creed</h3>
+                    <a class="absolute inline-block text-center w-10 h-10 bg-[#ee626b] text-white rounded-[50%] left-50 bottom-5 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">
+                      <i class="fa fa-shopping-bag "></i>
                     </a>  
                   </div>
-                  <!-- Third Part -->
-                  <div>
-                  <a href="#">
-                    <img src="./assets/trending-01.jpg" alt="Assassin Creed Image">
-                  </a>
-                  <span>
-                    <em>$64</em>
-                    $44
-                  </span>
-                  <div>
-                    <span>Action</span>
-                    <h3>Assasin Creed</h3>
-                    <a href="#">
-                      <i class="fa fa-shopping-bag"></i>
-                    </a>  
-                  </div>
-                  <!-- Fourth Part -->
-                  <div>
-                  <a href="#">
-                    <img src="./assets/trending-01.jpg" alt="Assassin Creed Image">
-                  </a>
-                  <span>$32</span>
-                  <div>
-                    <span>Action</span>
-                    <h3>Assasin Creed</h3>
-                    <a href="#">
-                      <i class="fa fa-shopping-bag"></i>
-                    </a>  
-                  </div>
+                </div>
 
+                  <!-- Third Part -->
+                <div class="bg-[#eeeeee] rounded-3xl">
+                  <a href="#" class="relative">
+                    <img class="w-3xs rounded-3xl" src="./assets/trending_games3.jpg" alt="Assassin Creed Image">
+                    <span class="text-right absolute top-5 right-7 z-10 rounded-xl bg-[#008af8] text-lg uppercase font-semibold text-white pt-2 pr-4 pb-1.5 pl-4 flex flex-col">
+                      <em class="font-normal text-sm line-through block">$64</em>  
+                      $44
+                    </span>
+                  </a>
+                  <div class="flex flex-col pb-4 pl-7 relative pt-6">
+                    <span class="text-sm text-[#7a7a7a] mb-1.5">Action</span>
+                    <h4 class="text-lg font-semibold hover:text-[#0071f8] transition duration-[0.3s]">Assasin Creed</h3>
+                    <a class="absolute inline-block text-center w-10 h-10 bg-[#ee626b] text-white rounded-[50%] left-50 bottom-5 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">
+                      <i class="fa fa-shopping-bag "></i>
+                    </a>  
+                  </div>
+                </div>
+                  <!-- Fourth Part -->
+                
+                  <div class="bg-[#eeeeee] rounded-3xl">
+                  <a href="#" class="relative">
+                    <img class="w-3xs rounded-3xl" src="./assets/trending_games1.jpg" alt="Assassin Creed Image">
+                    <span class="text-right absolute top-5 right-7 z-10 rounded-xl bg-[#008af8] text-lg uppercase font-semibold text-white pt-2 pr-4 pb-1.5 pl-4 flex flex-col">
+                      <em class="font-semibold not-italic text-lg block">$32</em>  
+                    </span>
+                  </a>
+                  <div class="flex flex-col pb-4 pl-7 relative pt-6">
+                    <span class="text-sm text-[#7a7a7a] mb-1.5">Action</span>
+                    <h4 class="text-lg font-semibold hover:text-[#0071f8] transition duration-[0.3s]">Assasin Creed</h3>
+                    <a class="absolute inline-block text-center w-10 h-10 bg-[#ee626b] text-white rounded-[50%] left-50 bottom-5 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">
+                      <i class="fa fa-shopping-bag "></i>
+                    </a>  
+                  </div>
                 </div>
 
             </div>
@@ -150,213 +188,232 @@
           </div>
         </section>
 
-        <section>
+        <section class="py-20 mt-32 bg-[#f7f7f7] rounded-[120px] w-full">
+          
+             <!-- TOP GAMES Part -->
+              <div class="pb-20">
 
-          <!-- TOP GAMES Part -->
-          <h4>TOP GAMES</h4>
-          <div>
-            <h2>Most Played</h2>
-            <button>VIEW ALL</button>
-          </div>
+                <div class="mx-32">
+                  <h6 class="text-[#ee626b] text-base font-bold uppercase">Top Games</h6>
+                  <div class="flex justify-between items-center">
+                    <h2 class="text-4xl font-bold capitalize mt-5 ">Most Played</h2>
+                    <a href="#" class="inline-block bg-[#ee626b] uppercase text-white text-base font-semibold px-5 py-3 
+                    rounded-3xl mt-5 hover:cursor-pointer hover:bg-[#0071f8] transition duration-[.3s]">VIEW ALL</a>
+                  </div>
+              </div>
 
-          <!-- Adventure 1 Warfare -->
-          <div>  
-            <div>
-              <div>
-                <a href="#">
-                  <img src="#" alt="Warframe image">
-                </a>
-              </div>  
-            </div>
-            <div>
-              <span>Adventure</span>
-              <h4>Assasin <br>Creed</h4>
-              <a href="#">Explore</a>
-            </div>
-          </div>
+              <div class="flex justify-center pt-20 gap-x-6">
 
-          <!-- Adventure 2 Battlegrounds -->
-          <div>  
-            <div>
-              <div>
-                <a href="#">
-                  <img src="#" alt="Warframe image">
-                </a>
-              </div>  
-            </div>
-            <div>
-              <span>Adventure</span>
-              <h4>Assasin <br>Creed</h4>
-              <a href="#">Explore</a>
-            </div>
-          </div>
-
-          <!-- Adventure 3 Apex LEGENDS -->
-          <div>  
-            <div>
-              <div>
-                <a href="#">
-                  <img src="#" alt="Warframe image">
-                </a>
-              </div>  
-            </div>
-            <div>
-              <span>Adventure</span>
-              <h4>Assasin <br>Creed</h4>
-              <a href="#">Explore</a>
-            </div>
-          </div>
-
-          <!-- Adventure 4 SIMS4 -->
-          <div>  
-            <div>
-              <div>
-                <a href="#">
-                  <img src="#" alt="Warframe image">
-                </a>
-              </div>  
-            </div>
-            <div>
-              <span>Adventure</span>
-              <h4>Assasin <br>Creed</h4>
-              <a href="#">Explore</a>
-            </div>
-          </div>
-
-          <!-- Adventure 5 LOSTARK -->
-          <div>  
-            <div>
-              <div>
-                <a href="#">
-                  <img src="#" alt="Warframe image">
-                </a>
-              </div>  
-            </div>
-            <div>
-              <span>Adventure</span>
-              <h4>Assasin <br>Creed</h4>
-              <a href="#">Explore</a>
-            </div>
-          </div>
-
-          <!-- Adventure 6 DESTINY 2 -->
-          <div>  
-            <div>
-              <div>
-                <a href="#">
-                  <img src="#" alt="Warframe image">
-                </a>
-              </div>  
-            </div>
-            <div>
-              <span>Adventure</span>
-              <h4>Assasin <br>Creed</h4>
-              <a href="#">Explore</a>
-            </div>
-          </div>
+                  <!-- Adventure 1 Warfare -->
+                  <div class="bg-[#ffffff] rounded-3xl">  
+                    <div >
+                      <div>
+                        <a href="#">
+                          <img class="w-40 rounded-3xl" src="./assets/Warframe_image.jpg" alt="Warframe image">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="relative flex flex-col px-6 py-6 text-center">
+                      <span class="text-sm text-[#7a7a7a] mb-1.5 inline-block">Adventure</span>
+                      <h4 class="text-lg font-semibold  hover:text-[#0071f8] transition duration-[.3s]">Assasin Creed</h4>
+                      <a class="absolute inline-block text-center px-4 py-2 bg-[#ee626b] text-white rounded-3xl text-sm uppercase font-semibold -bottom-5 left-9 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">Explore</a>
+                    </div>
+                  </div>
+        
+                  <!-- Adventure 2 Battlegrounds -->
+                
+                  <div class="bg-[#ffffff] rounded-3xl">  
+                    <div >
+                      <div>
+                        <a href="#">
+                          <img class="w-40 rounded-3xl" src="./assets/battlegrounds_image.jpg" alt="battlegrounds_image">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="relative flex flex-col px-6 py-6 text-center">
+                      <span class="text-sm text-[#7a7a7a] mb-1.5 inline-block">Adventure</span>
+                      <h4 class="text-lg font-semibold  hover:text-[#0071f8] transition duration-[.3s]">Assasin Creed</h4>
+                      <a class="absolute inline-block text-center px-4 py-2 bg-[#ee626b] text-white rounded-3xl text-sm uppercase font-semibold -bottom-5 left-9 hover:bg-[#0071f8] transition duration-[0.3s] " href="#">Explore</a>
+                    </div>
+                  </div>
+        
+                  <!-- Adventure 3 Apex LEGENDS -->
+                  <div class="bg-[#ffffff] rounded-3xl">  
+                    <div >
+                      <div>
+                        <a href="#">
+                          <img class="w-40 rounded-3xl" src="./assets/apex_image.jpg" alt="apex_image">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="relative flex flex-col px-6 py-6 text-center">
+                      <span class="text-sm text-[#7a7a7a] mb-1.5 inline-block">Adventure</span>
+                      <h4 class="text-lg font-semibold  hover:text-[#0071f8] transition duration-[.3s]">Assasin Creed</h4>
+                      <a class="absolute inline-block text-center px-4 py-2 bg-[#ee626b] text-white rounded-3xl text-sm uppercase font-semibold -bottom-5 left-9 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">Explore</a>
+                    </div>
+                  </div>
+        
+                  <!-- Adventure 4 SIMS4 -->
+                  <div class="bg-[#ffffff] rounded-3xl">  
+                    <div >
+                      <div>
+                        <a href="#">
+                          <img class="w-40 rounded-3xl" src="./assets/sims4_image.jpg" alt="sims4_image">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="relative flex flex-col px-6 py-6 text-center">
+                      <span class="text-sm text-[#7a7a7a] mb-1.5 inline-block">Adventure</span>
+                      <h4 class="text-lg font-semibold  hover:text-[#0071f8] transition duration-[.3s]">Assasin Creed</h4>
+                      <a class="absolute inline-block text-center px-4 py-2 bg-[#ee626b] text-white rounded-3xl text-sm uppercase font-semibold -bottom-5 left-9 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">Explore</a>
+                    </div>
+                  </div>
+        
+                  <!-- Adventure 5 LOSTARK -->
+                  <div class="bg-[#ffffff] rounded-3xl">  
+                    <div >
+                      <div>
+                        <a href="#">
+                          <img class="w-40 rounded-3xl" src="./assets/lostark_image.jpg" alt="lostark_image">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="relative flex flex-col px-6 py-6 text-center">
+                      <span class="text-sm text-[#7a7a7a] mb-1.5 inline-block">Adventure</span>
+                      <h4 class="text-lg font-semibold  hover:text-[#0071f8] transition duration-[.3s]">Assasin Creed</h4>
+                      <a class="absolute inline-block text-center px-4 py-2 bg-[#ee626b] text-white rounded-3xl text-sm uppercase font-semibold -bottom-5 left-9 hover:bg-[#0071f8] transition duration-[0.3s] " href="#">Explore</a>
+                    </div>
+                  </div>
+        
+                  <!-- Adventure 6 DESTINY 2 -->
+                  <div class="bg-[#ffffff] rounded-3xl">  
+                    <div >
+                      <div>
+                        <a href="#">
+                          <img class="w-40 rounded-3xl" src="./assets/destiny_image.jpg" alt="destiny_image">
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="relative flex flex-col px-6 py-6 text-center">
+                      <span class="text-sm text-[#7a7a7a] mb-1.5 inline-block">Adventure</span>
+                      <h4 class="text-lg font-semibold  hover:text-[#0071f8] transition duration-[.3s]">Assasin Creed</h4>
+                      <a class="absolute inline-block text-center px-4 py-2 bg-[#ee626b] text-white rounded-3xl text-sm uppercase font-semibold -bottom-5 left-9 hover:bg-[#0071f8] transition duration-[0.3s]" href="#">Explore</a>
+                    </div>
+                  </div>
+              </div>    
+        
+              
 
         </section>
 
-        <section>
+        <section class="mt-28">
 
-          <div>
-            <h6>CATEGORIES</h6>
-            <h2>Top Categories</h2>
+          <div class="pb-24">
+            <div class="text-center">
+              <h6 class="text-[#ee626b] text-sm uppercase font-bold">CATEGORIES</h6>
+              <h2 class="text-4xl font-bold capitalize mt-5 ">Top Categories</h2>
+            </div>
           </div>
 
-          <div>
+              <div class="flex justify-center gap-x-6">
+                
+                <div class="bg-[#0071f8] rounded-3xl  text-center">
+                  <h4 class="text-lg font-semibold text-white p-4">Action</h4>
+                  <div>
+                    <a href="#">
+                      <img class="rounded-3xl w-45 h-50" src="./assets/imgi_17_categories-01.jpg" alt="BRAWLHALLA image">
+                    </a>
+                  </div>
+                </div>
 
-            <div>
-              <h4>Action</h4>
-              <div>
-                <a href="#">
-                  <img src="" alt="BRAWLHALLA image">
-                </a>
-              </div>
-            </div>
+                <div class="bg-[#0071f8] rounded-3xl  text-center">
+                  <h4 class="text-lg font-semibold text-white p-4">Action</h4>
+                  <div>
+                    <a href="#">
+                      <img class="rounded-3xl w-45 h-50" src="./assets/imgi_18_categories-05.jpg" alt="Warframe_image">
+                    </a>
+                  </div>
+                </div>
 
-            <div>
-              <h4>Action</h4>
-              <div>
-                <a href="#">
-                  <img src="" alt="BRAWLHALLA image">
-                </a>
-              </div>   
-            </div>
+                <div class="bg-[#0071f8] rounded-3xl  text-center">
+                  <h4 class="text-lg font-semibold text-white p-4">Action</h4>
+                  <div>
+                    <a href="#">
+                      <img class="rounded-3xl w-45 h-50" src="./assets/imgi_19_categories-03.jpg" alt="tower_image">
+                    </a>
+                  </div>
+                </div>
 
-            <div>
-              <h4>Action</h4>
-              <div>
-                <a href="#">
-                  <img src="" alt="BRAWLHALLA image">
-                </a>
+                <div class="bg-[#0071f8] rounded-3xl  text-center">
+                  <h4 class="text-lg font-semibold text-white p-4">Action</h4>
+                  <div>
+                    <a href="#">
+                      <img class="rounded-3xl w-45 h-50" src="./assets/imgi_20_categories-04.jpg" alt="super_people">
+                    </a>
+                  </div>
+                </div>
+                
+
+                <div class="bg-[#0071f8] rounded-3xl  text-center">
+                  <h4 class="text-lg font-semibold text-white p-4">Action</h4>
+                  <div>
+                    <a href="#">
+                      <img class="rounded-3xl w-45 h-50" src="./assets/imgi_18_categories-05.jpg" alt="BRAWLHALLA image">
+                    </a>
+                  </div>
+                </div>
+
               </div> 
-            </div>
-
-            <div>
-              <h4>Action</h4>
-              <div>
-                <a href="#">
-                  <img src="" alt="BRAWLHALLA image">
-                </a>
-              </div>             
-            </div>
-
-            <div>
-              <h4>Action</h4>
-              <div>
-                <a href="#">
-                  <img src="" alt="BRAWLHALLA image">
-                </a>
-              </div>
-            </div>
-          </div>
-
         </section>
 
         <section>
-            <div>
+            
+          <div class="pt-100 h-screen relative  flex items-center justify-center">
+              
               <!-- Image in the center -->
-
-              <div>
-                <img src="" alt="">
-              </div>
+              <img class="absolute  w-[500px] h-[450px] object-cover bg-cover bottom-6 rounded-[30px]" 
+                     src="./assets/battlegrounds_image.jpg"
+                     alt="battlegrounds_image">
               
               <!-- Left Card -->
 
-              <div>
-                <span>OUR SHOP</span>
-                <h2>
+              <div class="bg-[#f7f7f7] px-15 py-15 rounded-3xl absolute z-10 left-45 top-45">
+                <span class="text-[#ee626b] text-sm uppercase font-bold">OUR SHOP</span>
+                <h2 class="text-4xl font-bold capitalize mt-5 pb-10 leading-11">
                   Go Pre-Order <br>
                   Buy & Get <br>
-                  Best <span>Prices</span> <br>
+                  Best <span class="text-[#0071f8]">Prices</span> <br>
                   For You!
                 </h2>
 
-                <p>Lorem ipsum dolor consectetur <br>
+                <p class="font-semibold text-lg text-[#4a4a4a] font-sans pb-10">Lorem ipsum dolor consectetur <br>
                   adipiscing, sed do eiusmod tempor<br>
                   incididunt.
                 </p>
-                <button type="submit">
+                <button class="bg-[#ee626b] uppercase text-white text-sm font-semibold px-7 py-3 rounded-3xl" type="submit">
                   SHOP NOW
                 </button>
               </div>
 
               <!-- Right Card -->
-              <div>
-                <span>NEWSLETTER</span>
-                <h2>
+              <div class="bg-[#f7f7f7] px-15 py-15 rounded-3xl absolute z-10 left-191 top-70 ">
+                <span class="text-[#ee626b] text-sm uppercase font-bold" >NEWSLETTER</span>
+                <h2 class="text-4xl font-bold capitalize mt-5 pb-10 leading-11">
                   Get Up To $100 Off <br>
                   Just Buy <br>
-                  <span>Subscribe</span>
+                  <span class="text-[#0071f8]">Subscribe</span><br>
                   Newsletter!
                 </h2>
-                <form>
+                <form class="w-96 relative pb-16">
                   <input 
+                      class="rounded-3xl bg-white border-none px-6 py-3.5 absolute placeholder:text-[#7a7a7a]"
                       type="email"
                       placeholder="Your email..."
                       required>
-                  <button type="submit">
+                  <button 
+                  class="bg-[#ee626b] px-6 py-4 rounded-3xl text-white text-sm uppercase font-bold absolute top-0 right-10"
+                  type="submit"
+                  >
                     SUBSCRIBE NOW
                   </button> 
                 </form>
@@ -369,8 +426,8 @@
 
     <footer>
 
-      <section>
-        <p>Copyright &copy; 2048 LUGX Gaming Company. All rights reserved.  Design:TemplateMo </p>
+      <section class="mt-60 bg-[url(./assets/imgi_22_footer-bg.jpg)] bg-cover pt-7 pb-25  rounded-t-[160px] text-center">
+        <p class="text-white font-normal text-lg font-sans">Copyright &copy; 2048 LUGX Gaming Company. All rights reserved.  Design:TemplateMo </p>
       </section>
 
     </footer>
