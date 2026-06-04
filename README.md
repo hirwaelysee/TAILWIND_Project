@@ -1,0 +1,5 @@
+# TAILWIND PROJECT 
+
+## THE PROJECT WAS DEPLOYED USING NETLIFY THIS THE LINK BELOW 👇🏿👇🏽
+
+#### https://goatify.netlify.app/
